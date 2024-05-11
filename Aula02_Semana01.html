@@ -1,0 +1,69 @@
+<!--Juntos, vamos criar um página rápida falando sobre a história e as linguagens mais conhecidas na programação. Porém ela deverá seguir as seguintes regras css interna: 
+
+O background-color do menu no início precisa ter uma cor clara e seu texto uma cor escura;
+O título principal da página deve ser um h1 com a cor do texto de destaque e font-size de 32px;
+O sub-título contando a “história”, “Linguagens mais comuns” devem ter um font-size de 24px;
+O texto geral da página deve ter font-size de 18px;
+A font-family geral da página deve ser Arial-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História e Linguagens de Programação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+        header {
+            background-color: #f2f2f2;
+            color: #333;
+            padding: 10px;
+        }
+        h1 {
+            color: #333;
+            font-size: 32px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>História e Linguagens de Programação</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#linguagens">Linguagens mais comuns</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="historia">
+        <h2>História</h2>
+        <p>
+            A história da programação de computadores remonta ao século XIX, quando os primeiros programas eram desenvolvidos para máquinas mecânicas como a Máquina Analítica de Charles Babbage. Desde então, a programação evoluiu significativamente, passando por diferentes paradigmas e linguagens.
+        </p>
+    </section>
+
+    <section id="linguagens">
+        <h2>Linguagens mais comuns</h2>
+        <p>
+            Existem diversas linguagens de programação, cada uma com sua própria sintaxe e uso. Algumas das linguagens mais populares atualmente incluem:
+        </p>
+        <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>PHP</li>
+            <li>Swift</li>
+            <li>HTML/CSS</li>
+        </ul>
+    </section>
+</body>
+</html>
